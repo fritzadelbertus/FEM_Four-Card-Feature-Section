@@ -1,0 +1,21 @@
+@import './FeatureSection.scss';
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+:root {
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
